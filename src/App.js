@@ -1,5 +1,5 @@
 import './App.css';
-import LandingPage from './components/LandingPage.jsx';
+import LandingPage from './components/LandingPage.tsx';
 
 function App() {
   console.log('App.js', process.env);

@@ -10,7 +10,6 @@ import CastleIcon from '@mui/icons-material/Castle';
 import HotelIcon from '@mui/icons-material/Hotel';
 import BusinessIcon from '@mui/icons-material/Business';
 import LocalAirportIcon from '@mui/icons-material/LocalAirport';
-import { Circle } from './Circle.tsx';
 
 const Marker = ({ position, property }) => {
   const [showDetails, setShowDetails] = useState(false);
@@ -40,21 +39,12 @@ const Marker = ({ position, property }) => {
 
   return (
     <>
-      <Circle
-        radius={2000}
-        center={position}
-        strokeColor={'#0c4cb3'}
-        strokeOpacity={1}
-        strokeWeight={3}
-        fillColor={'#3b82f6'}
-        fillOpacity={0.3}
-      />
       <AdvancedMarker
         position={position}
         className={showDetails ? 'property highlight' : 'property'}
         onClick={toggleHighlight}
       >
-        <div className="icon">{getIcon(property.type)}</div>
+        <div className="icon">{getIcon()}</div>
 
         {showDetails && (
           <div className="details">
