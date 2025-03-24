@@ -98,6 +98,27 @@ const LandingPage = () => {
     { lat: 32.7266, lng: 74.857, region: 'Jammu' },
   ];
 
+  // const westRegion = [
+  //   { lat: 29.9094, lng: 73.88, region: 'Sri Ganganagar' },
+  //   { lat: 29.5822, lng: 74.3292, region: 'Hanumangarh' },
+  //   { lat: 28.1317, lng: 75.4022, region: 'Jhunjhunu' },
+  //   { lat: 26.9124, lng: 75.7873, region: 'Jaipur' },
+  //   { lat: 26.1659, lng: 75.7963, region: 'Tonk' },
+  //   { lat: 25.4326, lng: 75.6483, region: 'Bundi' },
+  //   { lat: 24.0734, lng: 75.0679, region: 'Mandsaur' },
+  //   { lat: 22.8345, lng: 74.2606, region: 'Dahod' },
+  //   { lat: 21.1702, lng: 72.8311, region: 'Surat' },
+  //   { lat: 22.3072, lng: 73.1812, region: 'Vadodara' },
+  //   { lat: 23.0225, lng: 72.5714, region: 'Ahemdabad' },
+  //   { lat: 21.7645, lng: 72.1519, region: 'Bhavnagar' },
+  //   { lat: 20.71, lng: 70.98, region: 'Diu' },
+  //   { lat: 22.2442, lng: 68.9685, region: 'Dwarka' },
+  //   { lat: 23.242, lng: 69.6669, region: 'Bhuj' },
+  //   { lat: 24.3967, lng: 71.6272, region: 'Tharad' },
+  //   { lat: 27.5231, lng: 70.1558, region: 'Longewala' },
+  //   { lat: 27.9126, lng: 72.189, region: 'Charanwala' },
+  // ];
+
   const southRegion = [
     { lat: 14.8848, lng: 74.1181, region: 'Majali' },
     { lat: 14.5479, lng: 74.3188, region: 'Gokarna' },
